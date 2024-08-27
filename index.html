@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Events</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">JavaScript is Fun</h1>
+    <button id="btn">Subscribe</button>
+    <h2 id="text"></h2>
+
+    <!-- <button id="like" onclick="like();">
+      <i class="fa-regular fa-thumbs-up"></i> Like
+    </button> -->
+
+    <form action="" id="form" onkeyup="keyPress();">
+      <label for="">Name</label>
+      <input type="text" placeholder="Enter Your Name" />
+      <label for="">Email</label>
+      <input type="email" placeholder="Enter Your Email" />
+      <label for="">Message</label>
+      <textarea placeholder="Enter Your Message" id="textarea"></textarea>
+      <input type="submit" value="Send Message" />
+    </form>
+
+    <ul id="ul">
+      <li id="li">Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+    </ul>
+
+    <script src="app.js"></script>
+  </body>
+</html>

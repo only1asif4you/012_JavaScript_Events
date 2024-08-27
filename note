@@ -1,0 +1,12 @@
+# JavaScript Events
+
+1. onclick = "" // Single Click
+2. ondblclick = "" // Double Click
+3. oncontextmenu = "" // Click on Right Mouse Button
+4. onmouseenter = "" // Hover In
+5. onmouseout = "" // Hover Out
+6. onkeypress = "" // Key Press from Keyboard [Only inside form]
+7. onkeyup = "" // Key Press and Remove [Only inside form] 
+8. onload = "" // When Web Page Loaded Successfully [Only inside "body"]
+9. onresize = "" // When Web Page Resized [Only inside "body"]
+10. onscroll = "" // When we Scroll Web Page [Only inside "body"]

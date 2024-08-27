@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+}
+
+button,
+#form input[type="submit"] {
+  background-color: red;
+  padding: 20px 45px;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+button:hover,
+#form input[type="submit"]:hover {
+  background-color: #262626;
+}
+
+#form {
+  width: 90%;
+  padding: 3%;
+}
+
+#form label {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+}
+
+#form input,
+#form textarea {
+  width: 90%;
+  padding: 10px 4%;
+}
+
+#form input[type="submit"] {
+  width: 100%;
+  padding: 10px 4%;
+  margin-top: 10px;
+}
+
+ul {
+  text-align: left;
+}
